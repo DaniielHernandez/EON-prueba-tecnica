@@ -134,25 +134,25 @@
     },
     {
       "id": 30,
-      "nombre": "Daniel",
+      "nombre": "Daniel Turnpike",
       "edad": 18,
-      "frase": "Ser o no ser - nothing",
+      "frase": "Un sueño no se hace realidad por arte de magia, necesita sudor, determinación y trabajo duro - Colin Powell",
       "direccion": {
-        "calle": "",
-        "colonia": "",
-        "pais": "",
-        "id": null
+        "id": 1,
+        "calle": "Kulas Light",
+        "colonia": "Gwenborough",
+        "pais": "Estados Unidos"
       }
     },
     {
       "nombre": "Frida Kahalo",
       "edad": 59,
-      "frase": "La vida es para vivirla - Watson",
+      "frase": "El dinero no es la clave del éxito; la libertad para poder crear lo es - Nelson Mandela",
       "direccion": {
-        "calle": "",
-        "colonia": "",
-        "pais": "",
-        "id": null
+        "id": 1,
+        "calle": "Kulas Light",
+        "colonia": "Gwenborough",
+        "pais": "Estados Unidos"
       },
       "id": 34
     },
@@ -160,7 +160,7 @@
       "id": 45,
       "nombre": "Roberto Zein",
       "edad": 48,
-      "frase": "Aquellos que abandonan son los que reclaman - Beckham",
+      "frase": "Cuanto más duramente trabajo, más suerte tengo - Gary Player",
       "direccion": {
         "calle": "Hidalgo",
         "colonia": "Zapata",
@@ -172,11 +172,11 @@
       "id": 46,
       "nombre": "tamara",
       "edad": 17,
-      "frase": "holiss",
+      "frase": "Un sueño no se hace realidad por arte de magia, necesita sudor, determinación y trabajo duro - Colin Powell",
       "direccion": {
-        "calle": "My Direccion",
-        "colonia": "Mi colonia",
-        "pais": "Corea",
+        "calle": "Rex Trail",
+        "colonia": "Howemouth",
+        "pais": "Zimbabue",
         "id": 1
       }
     }
