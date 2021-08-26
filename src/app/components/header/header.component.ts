@@ -1,0 +1,30 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css']
+})
+export class HeaderComponent implements OnInit {
+
+  rutas = [
+    {
+      name: 'Tarjetas',
+      path: '/'
+    },
+    {
+      name: 'Personas',
+      path: '/Personas'
+    },
+    {
+      name: 'Posts',
+      path: '/Posts'
+    }
+  ];
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

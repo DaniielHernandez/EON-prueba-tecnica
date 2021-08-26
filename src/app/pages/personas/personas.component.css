@@ -1,0 +1,23 @@
+.container {
+    margin: 20px;
+}
+.sectionTable {
+    background: #424242;
+    color: white;
+    max-height: 500px;
+    overflow-y: scroll;
+    margin-top: 5px;
+}
+.spacer {
+    flex: 1 1 auto;
+}
+
+.dataTable {
+    align-items: center;
+    display: flex;
+    padding: 0 16px;
+}
+.infoTable {
+    cursor: pointer;
+    width: 100%;
+}

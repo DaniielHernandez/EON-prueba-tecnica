@@ -1,0 +1,6 @@
+<h2 mat-dialog-title>Editar información de una persona</h2>
+<mat-dialog-content class="mat-typography">
+
+    <app-formulario-persona [formDisabled]="false" [info]="this.data" (clickAgregar)="editarClick( $event )"></app-formulario-persona>
+
+</mat-dialog-content>

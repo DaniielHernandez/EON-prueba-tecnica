@@ -1,0 +1,6 @@
+<h2 mat-dialog-title>¿Desea eliminar a la siguiente persona?</h2>
+<mat-dialog-content class="mat-typography">
+
+    <app-formulario-persona [formDisabled]="true" [info]="this.data" (clickAgregar)="eliminarClick( $event )"></app-formulario-persona>
+
+</mat-dialog-content>

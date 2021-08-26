@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+mat-card {
+    background-color: dimgray;
+}
+mat-card-content {
+    display: grid;
+}
+.container-cards {
+    display: grid;
+    justify-items: center;
+    grid-gap: 30px;
+    grid-template-columns: 1fr;
+    min-height: 220px;
+}
+.card {
+    width: 100%;
+}

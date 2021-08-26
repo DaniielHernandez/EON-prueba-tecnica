@@ -1,0 +1,17 @@
+.desktop {
+    display: block;
+}
+.example-spacer {
+    flex: 1 1 auto;
+}
+.mobile {
+    display: none;
+}
+@media (max-width: 500px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}

@@ -1,0 +1,15 @@
+<h2>Tabla de Posts de JsonPlaceHolder</h2>
+<div class="container-cards">
+    <div *ngFor="let post of posts" class="card">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-subtitle>Usuario: {{ post.userId }}</mat-card-subtitle>
+                <mat-card-title>{{ post.title }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <p>{{ post.body }}</p>
+                <button mat-raised-button color="primary" (click)="verComentarios(post)" class="btnComentarios"> Ver Comentarios </button>
+            </mat-card-content>
+        </mat-card>  
+    </div>
+</div>

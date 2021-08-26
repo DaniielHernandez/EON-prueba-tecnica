@@ -12,15 +12,32 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.14",
+    "@angular/cdk": "~8.2.3",
     "@angular/common": "~8.2.14",
     "@angular/compiler": "~8.2.14",
     "@angular/core": "~8.2.14",
     "@angular/forms": "~8.2.14",
+    "@angular/material": "^8.2.3",
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "detect-indent": "^7.0.0",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "hammerjs": "^2.0.8",
+    "imurmurhash": "^0.1.4",
+    "is-plain-obj": "^4.0.0",
+    "is-typedarray": "^1.0.0",
+    "jsonfile": "^6.1.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
     "rxjs": "~6.4.0",
+    "signal-exit": "^3.0.3",
+    "sort-keys": "^5.0.0",
     "tslib": "^1.10.0",
+    "typedarray-to-buffer": "^4.0.0",
+    "write-file-atomic": "^3.0.3",
+    "write-json-file": "^5.0.0",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
@@ -28,9 +45,9 @@
     "@angular/cli": "~8.3.19",
     "@angular/compiler-cli": "~8.2.14",
     "@angular/language-service": "~8.2.14",
-    "@types/node": "~8.9.4",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^8.10.66",
     "codelyzer": "^5.0.0",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -43,5 +60,10 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }

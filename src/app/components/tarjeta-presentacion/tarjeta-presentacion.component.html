@@ -1,0 +1,14 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>{{ persona.nombre }}</mat-card-title>
+        <mat-card-subtitle>{{ persona.frase }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <mat-icon class="imagen">account_box</mat-icon>
+        <div>Edad: {{ persona.edad }}</div>
+        <div>Calle: <span *ngIf="persona.direccion">{{ persona.direccion.calle }}</span></div>
+        <div>Colonia: <span *ngIf="persona.direccion">{{ persona.direccion.colonia }}</span></div>
+        <div>Pais: <span *ngIf="persona.direccion">{{ persona.direccion.pais }}</span></div>
+        <div>Id: <span *ngIf="persona.direccion">{{ persona.direccion.id }}</span></div>
+    </mat-card-content>
+</mat-card>  

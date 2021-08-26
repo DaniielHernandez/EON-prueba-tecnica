@@ -1,0 +1,14 @@
+mat-card-content {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: repeat(5, 1fr);
+}
+.imagen {
+    align-items: center;
+    display: grid;
+    font-size: 90px;
+    grid-row: 1/6;
+    height: 100%;
+    justify-items: center;
+    width: 100%;
+}

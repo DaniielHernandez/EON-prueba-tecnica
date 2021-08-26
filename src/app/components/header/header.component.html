@@ -1,0 +1,32 @@
+<mat-toolbar class="desktop">
+    <mat-toolbar-row>
+        <img src="../../../assets/icon/eon-header.png" height="30">
+        <span class="example-spacer"></span>
+        <div *ngFor="let ruta of rutas">
+            <button mat-menu-item [routerLink]="ruta.path">
+                <mat-icon>chevron_right</mat-icon>
+                <span>{{ ruta.name }}</span>
+            </button>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-toolbar class="mobile">
+    <mat-toolbar-row>
+        <img src="../../../assets/icon/eon-header.png" height="30">
+        <span class="example-spacer"></span>
+
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon>menu</mat-icon>
+        </button>
+
+        <mat-menu #menu="matMenu" >
+            <div *ngFor="let ruta of rutas">
+                <button mat-menu-item [routerLink]="ruta.path">
+                    <mat-icon>chevron_right</mat-icon>
+                    <span>{{ ruta.name }}</span>
+                </button>
+            </div>
+        </mat-menu>
+
+    </mat-toolbar-row>
+</mat-toolbar>

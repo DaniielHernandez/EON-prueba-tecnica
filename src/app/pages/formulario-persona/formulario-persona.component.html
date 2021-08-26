@@ -1,0 +1,42 @@
+<div class="container">
+    <form [formGroup]="personaForm" (keydown.enter)="$event.preventDefault()" (ngSubmit)="agregar()">
+        <mat-form-field appearance="fill">
+            <mat-label>Nombre</mat-label>
+            <input matInput formControlName="nombre" placeholder="Ignacio Duarte" required>
+            <mat-error *ngIf="personaForm.controls['nombre'].invalid">{{getErrorMessage('nombre')}}</mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Edad</mat-label>
+            <input matInput type="number" formControlName="edad" placeholder="18" required pattern="^[0-9]+$">
+            <span matSuffix> años</span>
+            <mat-error *ngIf="personaForm.controls['edad'].invalid">{{getErrorMessage('edad')}}</mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Frase</mat-label>
+            <input matInput formControlName="frase" placeholder="Piensa, sueña, cree y atrévete - Walt Disney" required>
+            <mat-error *ngIf="personaForm.controls['frase'].invalid">{{getErrorMessage('frase')}}</mat-error>
+        </mat-form-field>
+
+        <div formGroupName="direccion">
+            <mat-form-field appearance="fill">
+                <mat-label>Calle</mat-label>
+                <input matInput formControlName="calle" placeholder="Cerrada Reforma">
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Colonia</mat-label>
+                <input matInput formControlName="colonia" placeholder="Narvarte">
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>País</mat-label>
+                <input matInput formControlName="pais" placeholder="México">
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Id de Dirección</mat-label>
+                <input matInput type="number" formControlName="id" placeholder="1">
+            </mat-form-field>
+        </div>
+
+        <button mat-raised-button *ngIf="!this.formDisabled" color="primary" type="submit" [disabled]="personaForm.invalid"> <span id="botonFormulario">Confirmar</span>  </button>
+    </form>
+    <button mat-raised-button *ngIf="this.formDisabled" color="warn" (click)="eliminar()"> Eliminar </button>
+</div>

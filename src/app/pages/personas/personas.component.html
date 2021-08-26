@@ -1,0 +1,20 @@
+<section class="container">
+    <p>Informacion de personas:</p>
+    <button mat-raised-button (click)="modalAgregarPersona()"> + Agregar Persona </button>
+
+    <section class="sectionTable">
+        <div *ngFor="let persona of personas">
+            <div class="dataTable">
+                <div class="infoTable">{{ persona.nombre }}, {{ persona.edad }} años</div>
+                <span class="spacer"></span>
+                <button mat-icon-button (click)="modalEditarPersona(persona)">
+                    <mat-icon>mode_edit</mat-icon>
+                </button>
+                <button mat-icon-button (click)="modalEliminarPersona(persona)">
+                    <mat-icon>delete</mat-icon>
+                </button>
+            </div>
+            <mat-divider></mat-divider>
+        </div>
+    </section>
+</section>

@@ -1,0 +1,184 @@
+{
+  "personas": [
+    {
+      "id": 1,
+      "nombre": "Leanne Graham",
+      "edad": 22,
+      "frase": "El único modo de hacer un gran trabajo es amar lo que haces - Steve Jobs",
+      "direccion": {
+        "id": 1,
+        "calle": "Kulas Light",
+        "colonia": "Gwenborough",
+        "pais": "Estados Unidos"
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Ervin Howell",
+      "edad": 27,
+      "frase": "Las ideas pueden cambiar la vida. A veces a lo único que tienes que abrir la puerta es a una buena idea - Jim Rohn",
+      "direccion": {
+        "id": 2,
+        "calle": "Victor Plains",
+        "colonia": "Wisokyburgh",
+        "pais": "Australia"
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Clementine Bauch",
+      "edad": 37,
+      "frase": "El dinero no es la clave del éxito; la libertad para poder crear lo es - Nelson Mandela",
+      "direccion": {
+        "id": 3,
+        "calle": "Douglas Extension",
+        "colonia": "McKenziehaven",
+        "pais": "Belice"
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Patricia Lebsack",
+      "edad": 19,
+      "frase": "Cuanto más duramente trabajo, más suerte tengo - Gary Player",
+      "direccion": {
+        "id": 4,
+        "calle": "Hoeger Mall",
+        "colonia": "South Elvis",
+        "pais": "Indonesia"
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Chelsey Dietrich",
+      "edad": 25,
+      "frase": "La inteligencia consiste no sólo en el conocimiento, sino también en la destreza de aplicar los conocimientos en la práctica - Aristóteles",
+      "direccion": {
+        "id": 5,
+        "calle": "Skiles Walks",
+        "colonia": "Roscoeview",
+        "pais": "Alemania"
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Mrs. Dennis Schulist",
+      "edad": 31,
+      "frase": "El trabajo duro hace que desaparezcan las arrugas de la mente y el espíritu - Helena Rubinstein ",
+      "direccion": {
+        "id": 6,
+        "calle": "Norberto Crossing",
+        "colonia": "South Christy",
+        "pais": "Turquía"
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "Kurtis Weissnat",
+      "edad": 29,
+      "frase": "Cuando algo es lo suficientemente importante, lo haces incluso si las probabilidades de que salga bien no te acompañan - Elon Musk",
+      "direccion": {
+        "id": 7,
+        "calle": "Rex Trail",
+        "colonia": "Howemouth",
+        "pais": "Zimbabue"
+      }
+    },
+    {
+      "id": 8,
+      "nombre": "Nicholas Runolfsdottir V",
+      "edad": 21,
+      "frase": "Escoge un trabajo que te guste, y nunca tendrás que trabajar ni un solo día de tu vida - Confucio",
+      "direccion": {
+        "id": 8,
+        "calle": "Ellsworth Summit",
+        "colonia": "Aliyaview",
+        "pais": "España"
+      }
+    },
+    {
+      "id": 9,
+      "nombre": "Glenna Reichert",
+      "edad": 33,
+      "frase": "Un sueño no se hace realidad por arte de magia, necesita sudor, determinación y trabajo duro - Colin Powell",
+      "direccion": {
+        "id": 9,
+        "calle": "Dayna Park",
+        "colonia": "Bartholomebury",
+        "pais": "Filipinas"
+      }
+    },
+    {
+      "id": 10,
+      "nombre": "Clementina DuBuque",
+      "edad": 20,
+      "frase": "Cuéntamelo y me olvidaré. enséñamelo y lo recordaré. involúcrame y lo aprenderé - Benjamin Franklin ",
+      "direccion": {
+        "id": 10,
+        "calle": "Kattie Turnpike",
+        "colonia": "Lebsackbury",
+        "pais": "Mónaco"
+      }
+    },
+    {
+      "id": 28,
+      "nombre": "Juan Valdez",
+      "edad": 33,
+      "frase": "Piensa, sueña, cree y atrévete - Walt Disney",
+      "direccion": {
+        "calle": "Bolibares",
+        "colonia": "Narvarte",
+        "pais": "Turquia",
+        "id": 1
+      }
+    },
+    {
+      "id": 30,
+      "nombre": "Daniel",
+      "edad": 18,
+      "frase": "Ser o no ser - nothing",
+      "direccion": {
+        "calle": "",
+        "colonia": "",
+        "pais": "",
+        "id": null
+      }
+    },
+    {
+      "nombre": "Frida Kahalo",
+      "edad": 59,
+      "frase": "La vida es para vivirla - Watson",
+      "direccion": {
+        "calle": "",
+        "colonia": "",
+        "pais": "",
+        "id": null
+      },
+      "id": 34
+    },
+    {
+      "id": 45,
+      "nombre": "Roberto Zein",
+      "edad": 48,
+      "frase": "Aquellos que abandonan son los que reclaman - Beckham",
+      "direccion": {
+        "calle": "Hidalgo",
+        "colonia": "Zapata",
+        "pais": "Grecia",
+        "id": 1
+      }
+    },
+    {
+      "id": 46,
+      "nombre": "tamara",
+      "edad": 17,
+      "frase": "holiss",
+      "direccion": {
+        "calle": "My Direccion",
+        "colonia": "Mi colonia",
+        "pais": "Corea",
+        "id": 1
+      }
+    }
+  ]
+}
